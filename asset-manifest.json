@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ohlc/static/css/main.bba05b73.css",
+    "main.js": "/ohlc/static/js/main.44bc1e85.js",
+    "index.html": "/ohlc/index.html",
+    "main.bba05b73.css.map": "/ohlc/static/css/main.bba05b73.css.map",
+    "main.44bc1e85.js.map": "/ohlc/static/js/main.44bc1e85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bba05b73.css",
+    "static/js/main.44bc1e85.js"
+  ]
+}
