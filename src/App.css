@@ -1,0 +1,63 @@
+.controls {
+  position: fixed;
+  left: 30px;
+  top: 25px;
+  display: flex;
+}
+
+.controls span {
+  color: white;
+  background: rgba(12, 12, 12, 0.36);
+  backdrop-filter: blur(10px);
+  border: 0.5px solid #2c2c2c;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 18.72px;
+}
+
+body {
+  background: #0c0c0c;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.controls div {
+  color: white;
+  background: rgba(12, 12, 12, 0.36);
+  backdrop-filter: blur(10px);
+  border: 0.5px solid #2c2c2c;
+  border-radius: 10px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  transition: .2s;
+}
+
+.controls div:hover {
+  background: white;
+  border: 0.5px solid white;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.25);
+}
+
+.controls div svg path {
+  fill: white;
+}
+
+.controls div:hover svg path {
+  fill: black;
+}
+
+
+.controls div svg {
+  height: 20px;
+  width: 20px;
+}

@@ -1,0 +1,109 @@
+.blur {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blur .settings {
+    color: white;
+    padding: 20px;
+    background: #131313;
+    border: 1px solid #212121;
+    border-radius: 20px;
+}
+
+.blur .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs label {
+    margin-bottom: 10px;
+    max-width: 310px;
+}
+
+.inputs input[type='text'], .inputs input[type='number'] {
+    -webkit-appearance: none;
+    padding: 10px;
+    width: 340px;
+    border-radius: 10px;
+    background: #0c0c0c;
+    font-size: 16px;
+    color: white;
+    border: 0.5px solid #282828;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.direction {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.direction input[type='radio'] {
+    opacity: 0;
+    pointer-events: none;
+    height: 20px;
+    position: absolute;
+}
+
+.direction label {
+    border: 1px solid #2d2d2d;
+    height: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 10px;
+    width: 70px;
+    user-select: none;
+    transition: border 250ms;
+}
+
+.direction label:hover {
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}
+
+.direction input[type='radio']:checked + label {
+    background-color: white;
+    color: black !important;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #2b74e2;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    transition: background .2s, color .2s;
+}
+
+button:hover {
+    background: #114fa2;
+}
